@@ -68,16 +68,10 @@ namespace CSharpRampUP
             string[] enemies = { "Razorback Cat", "Torment Viper" };
             string place = "Nottpil";
 
-            string story = $@"Three siblings set out on a quest to find a cure for their father on the highest mountain, referred to as {place}. 
-The eldest, {characs[0]}, leads the way with a versatile {abilities[0]}, a shield inherited from their mother. 
-{characs[1]}, the middle sibling, possesses a unique but burdensome ability {abilities[1]} to transform into anything she imagines. 
-The youngest, {characs[2]}, wields a {abilities[2]} that enhances his speed.
-During their journey, they encounter formidable foes also seeking the cure. {characs[2]} uses his {abilities[2]} to swiftly defeat a {enemies[0]} with sharp nails. 
-{characs[1]} showcases her power by transforming into a three-tailed scorpion to overcome a three-headed {enemies[1]}.
-Approaching their destination, they encounter two familiar figures, {characs[3]} and {characs[4]}, known for their dangerous abilities. {characs[3]}'s gaze controls and addicts people, while {characs[4]} manipulates thoughts and actions. 
-Realizing the threat, {characs[0]} shields his siblings, but {characs[2]} falls under {characs[3]}'s spell.
-In a daring move, {characs[1]} transforms into a wild boar, covering her ears and roaring loudly to rescue {characs[2]} from the spell. In the chaos, they inadvertently fall from the mountain.
-Upon regaining consciousness, {characs[0]} and {characs[2]} discover {characs[1]}'s sacrifice to break her curse and strengthen their sibling bond. 
+            string story = $@"Three siblings set out on a quest to find a cure for their father on the highest mountain, referred to as {place}. The eldest, {characs[0]}, leads the way with a versatile {abilities[0]}, a shield inherited from their mother. {characs[1]}, the middle sibling, possesses a unique but burdensome ability {abilities[1]} to transform into anything she imagines.  The youngest, {characs[2]}, wields a {abilities[2]} that enhances his speed.
+During their journey, they encounter formidable foes also seeking the cure. {characs[2]} uses his {abilities[2]} to swiftly defeat a {enemies[0]} with sharp nails. {characs[1]} showcases her power by transforming into a three-tailed scorpion to overcome a three-headed {enemies[1]}.
+Approaching their destination, they encounter two familiar figures, {characs[3]} and {characs[4]}, known for their dangerous abilities. {characs[3]}'s gaze controls and addicts people, while {characs[4]} manipulates thoughts and actions. Realizing the threat, {characs[0]} shields his siblings, but {characs[2]} falls under {characs[3]}'s spell.
+In a daring move, {characs[1]} transforms into a wild boar, covering her ears and roaring loudly to rescue {characs[2]} from the spell. In the chaos, they inadvertently fall from the mountain. Upon regaining consciousness, {characs[0]} and {characs[2]} discover {characs[1]}'s sacrifice to break her curse and strengthen their sibling bond. 
 At the mountain peak, they find the cure, healing not only their father but also their fractured relationship.";
 
             Console.WriteLine(story);
