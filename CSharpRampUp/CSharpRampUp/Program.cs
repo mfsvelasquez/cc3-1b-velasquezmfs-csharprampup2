@@ -52,7 +52,7 @@ namespace CSharpRampUP
                 sum += age;
             }
 
-            double averageAge = (double)sum / 10;
+            int averageAge = sum / 10;
 
             for (int i = 0; i < 10; i++)
             {
